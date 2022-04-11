@@ -1,0 +1,21 @@
+{
+    "mac": {
+        "target": [
+            "pkg",
+            "dmg"
+        ]
+    },
+    "appId": "com.Lincoln.OzariaApp",
+    "copyright": "Copyright © 2022 Lincoln Muller. All rights reserved.",
+    "nsis": {
+        "oneClick": "false",
+        "perMachine": "false",
+        "allowToChangeInstallationDirectory": "true",
+        "runAfterFinish": "true",
+        "createDesktopShortcut": "always",
+        "createStartMenuShortcut": "true"
+    },
+    "linux": {
+        "target": "AppImage"
+    }
+}
