@@ -1,8 +1,8 @@
 {
   "name": "ozaria",
-  "productName": "ozaria",
-  "version": "1.0.0",
-  "description": "My Electron application description",
+  "productName": "Ozaria",
+  "version": "1.1.0",
+  "description": "Online sandboxed version of Ozaria.com",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
