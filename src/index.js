@@ -15,9 +15,10 @@ const createWindow = () => {
   });
 
   // and load the index.html of the app.
-  mainWindow.loadURL('https://www.ozaria.com/');
-  // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  mainWindow.loadURL('https://ozaria.com/');
+  mainWindow.once('ready-to-show', () => {
+    mainWindow.show()
+  })
 };
 
 // This method will be called when Electron has finished
