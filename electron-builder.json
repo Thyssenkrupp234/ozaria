@@ -3,6 +3,10 @@
         "target": [
             "pkg",
             "dmg"
+        ],
+        "arch": [
+            "x64",
+            "arm64"
         ]
     },
     "appId": "com.Lincoln.OzariaApp",
